@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-size: 20px;
+    background: rgb(243, 233, 237);
+  }
+  
+  .accordion {
+    max-width: 600px;
+    margin: 2rem auto;
+  }
+  
+  .accordion-title {
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    background-color: rgb(194, 191, 191);
+    border: 1px solid gray;
+    border-radius: 2px;
+  }
+  
+  .accordion-title:hover {
+    background-color: #834b61;
+    color: wheat;
+  }
+  
+  .accordion-title,
+  .accordion-content {
+    padding: 1rem;
+  }
+  
+  .accordion-content {
+    background-color: rgb(194, 191, 191);
+  }
+  
+  @media screen and (max-width: 700px) {
+    body {
+      font-size: 18px;
+    }
+  
+    .accordion {
+      width: 90%;
+    }
+  }
