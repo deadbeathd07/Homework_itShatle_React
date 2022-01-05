@@ -1,0 +1,28 @@
+@import "../../../styles/fonts.css";
+
+.footer {
+  width: 100%;
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #304c89;
+}
+.footer .cop {
+  font-family: "Oswald", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  color: #cdc392;
+}
+
+.footer .cop a {
+  font-family: "Oswald", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  color: #cdc392;
+  text-decoration: none;
+}
+.footer .cop a:hover {
+    color: #648de5;
+    transition: 0.3s;
+}
