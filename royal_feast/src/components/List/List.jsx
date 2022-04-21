@@ -53,7 +53,11 @@ function List() {
         ))}
       </div>
       <Link to="/third">
-        <button type="button" className="buttonList">
+        <button
+          type="button"
+          className="buttonList"
+          disabled={users.length === 0}
+        >
           Отправить
         </button>
       </Link>

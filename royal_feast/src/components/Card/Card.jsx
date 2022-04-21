@@ -2,15 +2,16 @@ import "./Card.scss";
 
 function Card(props) {
   return (
-    <div>
-      <div>
+    <>
+      <div className="message">
         <h2>{props.name}</h2>
         <p>{props.exercise}</p>
       </div>
-      <div>
-        <button onClick={props.func}>Принять</button>
-      </div>
-    </div>
+
+      <button onClick={props.func} className="buttonCard">
+        Принять
+      </button>
+    </>
   );
 }
 
